@@ -39,12 +39,12 @@ tns plugin add nativescript-imageoptimize
     
 | Property | Default | Type | Required | Description  |
 | --- | --- | --- | ---| ---|
-| width | source width | number | - [ ] |
-| height | source width | number  | - [ ] |
-| quality | null | number | - [x] | |
-| format | jpg | string | - [ ] |
-| dest | null | string | - [x] |
-| src | null | string | - [x] |
+| width | source width | number | <ul><li>- [ ] </li></ul> |
+| height | source width | number  | <ul><li>- [ ] </li></ul> |
+| quality | null | number | <ul><li>- [x] </li></ul> | |
+| format | jpg | string | <ul><li>- [ ] </li></ul> |
+| dest | null | string | <ul><li>- [x] </li></ul> |
+| src | null | string | <ul><li>- [x] </li></ul> |
     
 ## License
 
