@@ -1,0 +1,13 @@
+/* Include.gradle configuration: http://docs.nativescript.org/plugins/plugins#includegradle-specification */
+
+android {
+	productFlavors {
+		"nativescript-imageoptimize" {
+			dimension "nativescript-imageoptimize"
+		}
+	}
+}
+
+dependencies {
+    compile 'id.zelory:compressor:2.1.0'
+}
