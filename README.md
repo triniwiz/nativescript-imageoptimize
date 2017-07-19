@@ -20,6 +20,13 @@ tns plugin add nativescript-imageoptimize
       format:'jpg' // jpeg || jpg || png
       dest: fs.knownFolders.documents().getFolder('images').path
     })
+    imageoptimize().optimize().then(
+    (res)=>{
+    console.log(res.file)
+    },(err)=>{
+    console.log(err.message)
+    }
+    )
 ```
 ```js
     const ImageOptimize = require('nativescript-imageoptimize').ImageOptimize;
@@ -32,6 +39,13 @@ tns plugin add nativescript-imageoptimize
       format:'jpg' // jpeg || jpg || png
       dest: fs.knownFolders.documents().getFolder('images').path,
     })
+    imageoptimize().optimize().then(
+    (res)=>{
+    console.log(res.file)
+    },(err)=>{
+    console.log(err.message)
+    }
+    )
 ```
 
 ## API
